@@ -1,3 +1,0 @@
-# Only needed for pasted links (YouTube, Twitch, and 1,000+ other sites).
-# Local file uploads work without it.
-yt-dlp
