@@ -1,2 +1,0 @@
-# Keep yt-dlp current and include its JavaScript challenge solver support.
-yt-dlp[default]
