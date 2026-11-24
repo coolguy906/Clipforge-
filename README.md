@@ -8,12 +8,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 COPY requirements.txt .
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+ENV PYTHONUNBUFFERED=1
 ENV CLIPFORGE_HOST=0.0.0.0
 
 CMD ["python", "clipforge.py"]
+
 
 
