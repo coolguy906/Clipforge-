@@ -1,0 +1,2 @@
+# Full YouTube support: includes yt-dlp-ejs challenge scripts.
+yt-dlp[default]
